@@ -69,6 +69,13 @@ $aMenuLinks = Array(
 		Array(), 
 		Array(), 
 		"" 
-	)
+	),
+    Array(
+        "Личный кабинет",
+        "/personal/",
+        Array(),
+        Array(),
+        ""
+    )
 );
 ?>

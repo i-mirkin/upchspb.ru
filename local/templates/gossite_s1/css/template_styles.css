@@ -5866,3 +5866,530 @@ table.line td {
 .news-list-stuff-d-none .content_table__btn--right{
     display: none!important;
 }
+
+
+/********************************************/
+/************* MODULES & SERVICES ***********/
+/********************************************/
+.divider {
+    height: 30px;
+}
+table.minimal td {
+    vertical-align: top;
+    padding: 20px !important;
+}
+.personal-about-user {
+    line-height: 1.8;
+}
+.personal-about-user span{
+
+}
+.personal-about-user b{
+    width: 150px;
+    display: inline-block;
+
+}
+
+.iblock_add-question textarea, .iblock_add-question input {
+    width: 100%;
+}
+
+.personal-header-link {
+    position: fixed;
+    top: 0;
+    right: 30px;
+    background: #b80000;
+    padding: 10px;
+    border-radius: 0 0 6px 6px;
+    z-index: 89999;
+    color: white;
+}
+
+.personal-header-link a {
+    color: white;
+}
+
+.personal-header-link a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.personal-header-badge {
+    position: absolute;
+    right: -10px;
+    background: #b80000;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personal-edit-item {
+    border: 1px solid #c8c8c8;
+    padding: 5px;
+}
+.personal-edit-item-q {
+    border: 1px solid #c8c8c8;
+    padding: 10px;
+    min-height: 250px;
+}
+
+.personal-edit-item textarea {
+    width: 100%;
+    height: 250px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.btn--personal {
+    background-color: #0065dd;
+    color: white !important;
+    border-radius: 6px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    display: inline-block;
+    min-width: 100px;
+    transition: 0.3s;
+    padding: 22px 0;
+    width: 222px;
+}
+
+.btn--personal:hover {
+    background-color: #0051b1;
+    text-decoration: none !important;
+}
+
+.box-body table tr.status-MY td,
+.box-body table tr.status-MY td a,
+#personal-header-badge-MY {
+    background-color: #e57373 !important;
+    color: #e1e1e1;
+}
+
+.box-body table tr.status-HEAD td,
+.box-body table tr.status-HEAD td a,
+#personal-header-badge-HEAD {
+    background-color: #3F6CFF !important;
+    color: #e1e1e1;
+}
+
+.box-body table tr.status-EXECUTOR td,
+.box-body table tr.status-EXECUTOR td a,
+#personal-header-badge-EXECUTOR {
+    background-color: #7F9DFF !important;
+    color: #e1e1e1;
+}
+
+
+.status-NEW td,
+#personal-header-badges .NEW {
+    background-color: #e57373 !important;
+}
+
+.status-AT_WORK td,
+#personal-header-badges .AT_WORK {
+    background-color: #ba68c8 !important;
+}
+
+.status-NEED_WORK td,
+#personal-header-badges .NEED_WORK {
+    background-color: #9575cd !important;
+}
+
+.status-NEW td, .status-AT_WORK td, .status-NEED_WORK td {
+    color: #e1e1e1 !important;
+}
+
+.status-NEW td a, .status-AT_WORK td a, .status-NEED_WORK td a {
+    color: #e1e1e1 !important;
+    text-decoration: underline;
+}
+
+.status-DONE td {
+}
+
+.status-DONE_HEAD td,
+#personal-header-badges .DONE_HEAD {
+    background-color: #81d4fa !important;
+}
+
+.status-DONE_EXECUTOR td,
+#personal-header-badges .DONE_EXECUTOR {
+    background-color: #80deea !important;
+}
+
+.status-NEED_WORK_HEAD td,
+#personal-header-badges .NEED_WORK_HEAD {
+    background-color: #dcedc8 !important;
+}
+
+.content-block-toggle {
+    border-bottom: 1px dashed;
+    text-decoration: none !important;
+    white-space: nowrap;
+}
+
+.content-block-toggle:hover {
+    border-bottom: 1px solid;
+    text-decoration: none !important;
+}
+
+.content-block input {
+    white-space: nowrap;
+}
+
+
+
+
+/*v2*/
+.iblock_add-question textarea, .iblock_add-question input {
+    width: 100%;
+}
+.personal textarea:focus-visible {
+    border: 1px solid #6c6c6c;
+    outline: none;
+}
+.personal-header-link:hover {
+    text-decoration: none;
+    color: #b80000;
+}
+
+.personal-header-badge {
+    position: absolute;
+    right: -10px;
+    background: #b80000;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.personal-edit-item textarea {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+
+tr.status-64 td {
+    background: #ff030336 !important;
+}
+
+.bx-authform-social {
+    display: none;
+}
+
+.personal-table thead tr td {
+    border-bottom: 2px solid #888;
+}
+
+.personal-table tr {
+    border-bottom: 3px solid #fff;
+}
+
+.personal-table td {
+    vertical-align: middle;
+}
+
+.personal-table-name {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+
+#personal-header-badges {
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#personal-header-badges a {
+    background: #b80000;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#personal-header-badges a:hover {
+    color: #1e3685;
+    text-decoration: none;
+}
+
+.personal-edit-item,
+.personal-edit-item table td {
+    color: #222;
+}
+
+.personal-edit-item select {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+}
+
+
+.personal-comments {
+    margin-bottom: 15px;
+}
+
+.personal-comments-container {
+    font-size: 12px;
+    line-height: 1.2;
+    max-height: 250px;
+    overflow: auto;
+}
+
+.personal-comment-container {
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.personal-comment-container i {
+    font-style: normal;
+    color: #999;
+}
+
+.personal-edit-item h2 {
+    font-size: 18px;
+    margin-bottom: 18px;
+    color: #555;
+    font-weight: 700;
+}
+
+.personal-comments-add textarea {
+    margin-top: 25px;
+    max-height: 100px !important;
+    font-size: 14px;
+}
+
+.personal-comments-container::-webkit-scrollbar {
+    width: 7px;
+    background-color: #223c50;
+    border-radius: 5px;
+}
+
+.personal-comments-container::-webkit-scrollbar-thumb {
+    background-color: #0065DD;
+    border-radius: 5px;
+}
+
+a.underline {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a.underline:hover {
+    text-decoration: none;
+}
+
+#select_status_director_note {
+    margin-top: 10px;
+    font-size: 12px;
+    color: red;
+}
+
+.send-answer-btn {
+    color: #b80000 !important;
+    border-bottom: 1px solid;
+    text-decoration: none !important;
+}
+
+
+tr.status-64 td {
+    background: #ff030336 !important;
+}
+
+.bx-authform-social {
+    display: none;
+}
+
+.personal-table thead tr td {
+    border-bottom: 2px solid #888;
+}
+
+#personal-header-badges {
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#personal-header-badges span {
+    background: #b80000;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.personal-edit-item,
+.personal-edit-item table td {
+    color: #222;
+}
+
+.personal-edit-item select {
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+}
+
+.personal-comments-container {
+    font-size: 12px;
+    line-height: 1.2;
+    max-height: 150px;
+    overflow: auto;
+}
+
+a.underline {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+a.underline:hover {
+    text-decoration: none;
+}
+
+#select_status_director_note {
+    margin-top: 10px;
+    font-size: 12px;
+    color: red;
+}
+
+/********************************************/
+/****************shedule*********************/
+/********************************************/
+.appointment .subject-list {
+    display: block;
+    height: 250px;
+    overflow: auto;
+    border-bottom: 2px solid #eee;
+    border-top: 2px solid #eee;
+    padding: 15px 0;
+}
+
+.appointment .subject-list a {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.appointment .subject.selected {
+    background-color: #A5B5E8;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.appointment form .result__error {
+    color: #b80000;
+    font-weight: bold;
+}
+
+.appointment form .error {
+    border: 1px solid #b80000;
+}
+
+.appointment .shedule-title.error {
+    color: #b80000;
+    border: none;
+}
+
+.shedule {
+    display: flex;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.shedule-day {
+    padding: 10px 15px;
+    border: 1px solid;
+    margin: 5px;
+}
+
+.shedule-day-date {
+    background: #1e3685;
+    color: #ffffff;
+    padding: 3px;
+}
+
+.shedule-day-time {
+
+}
+
+.shedule-day-time-item {
+
+}
+
+.shedule-day-time-item.disabled {
+    text-decoration: line-through;
+    color: red;
+    font-weight: 600;
+}
+.shedule-day-time-item.disabled.busy {
+    color: green;
+}
+
+.table-shedule {
+    border: 1px solid #555555;
+}
+.table-shedule td {
+    padding: 10px !important;
+    border: 1px solid #555555;
+}
+.table-shedule td:nth-child(1) {
+    width: 15%;
+}
+.table-shedule td:nth-child(2) {
+    width: 15%;
+}
+.table-shedule td:nth-child(3) {
+    width: 15%;
+}
+
+.table-shedule thead td {
+    color: white;
+    background-color: #0065DD !important;
+    text-align: center;
+}
+
+
+
