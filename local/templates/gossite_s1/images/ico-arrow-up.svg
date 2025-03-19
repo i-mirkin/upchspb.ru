@@ -1,0 +1,6 @@
+<svg width="12" height="39" viewBox="0 0 12 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path id="icon" fill-rule="evenodd" clip-rule="evenodd" d="M7.00001 4.41421L7.00001 13L5.00001 13L5.00001 4.41421L1.70712 7.70711L0.292907 6.29289L6.00001 0.585787L11.7071 6.29289L10.2929 7.70711L7.00001 4.41421Z" />
+  <use href="#icon" x="0" y="0" fill="#909EBB"/>
+  <use href="#icon" x="0" y="13" fill="#FFF"/>
+  <use href="#icon" x="0" y="26" fill="#000"/>
+</svg>

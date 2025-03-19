@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Уполномоченный", 
+		"/upolnomochennyy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/all_news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Доклады", 
+		"/doklady-upolnomochennogo/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Правовое просвещение", 
+		"/information/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts_all/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"", 
+		"/1/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

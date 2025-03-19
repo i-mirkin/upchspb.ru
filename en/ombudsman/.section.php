@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Ombudsman";
+$arDirProperties = Array(
+
+);
+?>

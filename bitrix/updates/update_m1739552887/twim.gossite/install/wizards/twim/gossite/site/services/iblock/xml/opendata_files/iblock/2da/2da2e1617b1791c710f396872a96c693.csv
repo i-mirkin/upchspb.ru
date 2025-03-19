@@ -1,0 +1,3 @@
+field name,english description,russian description,format
+position,specialist position,должность специалиста,string
+obyazannosti,professional duties,обязанности специалиста,string

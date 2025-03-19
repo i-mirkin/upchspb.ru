@@ -1,0 +1,44 @@
+<?
+$MESS["THEME_CONTROL_TITLE_DESC"] = "Настройка темы";
+$MESS["THEME_CONTROL_CONTROL_TEMPLATE"] = "Управление шаблоном";
+$MESS["THEME_CONTROL_WIDTH_LAYOUT"] = "Ширина макета";
+$MESS["THEME_CONTROL_wide"] = "Широкий";
+$MESS["THEME_CONTROL_boxed_1200"] = "1200px";
+$MESS["THEME_CONTROL_boxed_1344"] = "1344px";
+$MESS["THEME_CONTROL_boxed_1500"] = "1500px";
+$MESS["THEME_CONTROL_boxed_1700"] = "1700px";
+$MESS["THEME_CONTROL_COLOR_THEME"] = "Цветовая схема";
+$MESS["THEME_CONTROL_SELECT_COLOR"] = "Выберите свои цвета сайта";
+$MESS["THEME_CONTROL_CLOSE_DESC"] = "Закрыть";
+$MESS["THEME_CONTROL_COLOR_1"] = "Цвет 1";
+$MESS["THEME_CONTROL_COLOR_2"] = "Цвет 2";
+$MESS["THEME_CONTROL_HEADER"] = "Шапка";
+$MESS["THEME_CONTROL_HIDE_LOGO"] = "Скрыть логотип";
+$MESS["THEME_CONTROL_SAVE_DESC"] = "Сохранить";
+$MESS["THEME_CONTROL_DEFAULT_SETTINGS"] = "По умолчанию";
+$MESS["THEME_CONTROL_MAIN_PAGE_SLIDER"] = "Слайдер";
+$MESS["THEME_CONTROL_MAIN_PAGE_MEDIA"] = "Медиа";
+$MESS["THEME_CONTROL_MAIN_PAGE_CALENDAR"] = "Календарь событий";
+$MESS["THEME_CONTROL_MAIN_PAGE_BANNERS"] = "Полезные ссылки";
+$MESS["THEME_CONTROL_MAIN_PAGE_CONTACTS"] = "Контакты";
+$MESS["THEME_CONTROL_MAIN_PAGE_DESC"] = "Главная страница";
+$MESS["THEME_CONTROL_NEWS_DESC"] = "Новости";
+$MESS["THEME_CONTROL_NEWS_MAIN_tile"] = "Тайлы";
+$MESS["THEME_CONTROL_NEWS_MAIN_list"] = "Список";
+$MESS["THEME_CONTROL_FOOTER_DESC"] = "Футер";
+$MESS["THEME_CONTROL_FOOTER_TYPE_standart"] = "Стандартный";
+$MESS["THEME_CONTROL_FOOTER_TYPE_extended"] = "Расширенный";
+$MESS["THEME_CONTROL_MENU_DESC"] = "Главное меню";
+$MESS["THEME_CONTROL_MENU_TYPE_line"] = "Однострочное";
+$MESS["THEME_CONTROL_MENU_TYPE_multiline"] = "Многострочное";
+
+$MESS["THEME_CONTROL_NEWS_PREVIEW"] = "Картинки анонса новости";
+$MESS["THEME_CONTROL_NEWS_MAIN_PREVIEW_default_news1"] = "Новости";
+$MESS["THEME_CONTROL_NEWS_MAIN_PREVIEW_default_news2"] = "Информирует в1";
+$MESS["THEME_CONTROL_NEWS_MAIN_PREVIEW_default_news3"] = "Информирует в2";
+
+$MESS["THEME_CONTROL_SIZE_LOGO"] = "Размер логотипа";
+$MESS["THEME_CONTROL_SIZE_LOGO_normal"] = "по-умолчанию";
+$MESS["THEME_CONTROL_SIZE_LOGO_logo-big"] = "+50%";
+$MESS["THEME_CONTROL_SIZE_LOGO_logo-verybig"] = "+70%";
+$MESS["THEME_CONTROL_SIZE_LOGO_logo-gorizontal"] = "Горизонтально";

@@ -1,0 +1,72 @@
+.navbar-header .wrap-gerb {
+    margin-right: 10px;
+    text-align: right;
+    padding-top: 6px;
+    width: 45px;
+    padding-right: 15px;
+  }
+  
+  .navbar-header .wrap-gerb img {
+    max-height: 56px;
+    max-width: 45px;
+    height: auto;
+  }
+  
+  .navbar-header .logo-gorizontal {
+    transform: rotate(90deg);
+  }
+  
+  .navbar-header .logo-gorizontal img {
+    transform: rotate(-90deg);
+    max-height: 45px;
+    max-width: 56px;
+  }
+  
+  .navbar-header .logo-big {
+    width: calc(55px * 1.5);
+  }
+  
+  .navbar-header .logo-big img {
+    max-height: calc(56px * 1.5);
+    max-width: calc(45px * 1.5);
+  }
+  
+  .navbar-header .logo-verybig {
+    width: calc(55px * 1.7);
+  }
+  
+  .navbar-header .logo-verybig img {
+    max-height: calc(56px * 1.7);
+    max-width: calc(45px * 1.7);
+  }
+  
+  .navbar-header .title-site {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    width: calc(55% - 55px);
+    line-height: 1.2;
+    font-size: 1.8rem;
+  }
+
+@media (min-width: 768px) {
+    .owl-banners-main .banners-item p {
+        color: #0e7498;
+        margin: 10px auto 0;
+        width: 70%;
+        line-height: 1;
+        height: 45px;
+        overflow: hidden;
+        display: block
+    }
+
+    .owl-banners-main .banners-item img {
+        max-height: 75px;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+    .owl-banners-main .banners-item div{
+        min-height: 151px;
+    }
+}

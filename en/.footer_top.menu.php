@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Home", 
+		"/en/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Ombudsman", 
+		"/en/ombudsman/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Institute", 
+		"/en/institute/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Reports", 
+		"/en/reports/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Contacts", 
+		"/en/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

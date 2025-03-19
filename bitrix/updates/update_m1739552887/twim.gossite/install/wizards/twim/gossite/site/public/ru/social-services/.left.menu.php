@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Образование", 
+		"education/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Здравоохранение", 
+		"health/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ЖКХ", 
+		"utilities/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Культура", 
+		"culture/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Спорт", 
+		"sport/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Социальная защита", 
+		"social-protection/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Экология", 
+		"ecology/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

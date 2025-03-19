@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Символика";
+$arDirProperties = Array(
+
+);
+?>

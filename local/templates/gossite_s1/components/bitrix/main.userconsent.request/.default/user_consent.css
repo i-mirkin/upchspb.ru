@@ -1,0 +1,155 @@
+.main-user-consent-request a {
+	cursor: pointer;
+}
+
+.main-user-consent-request-popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0,0,0,0.5);
+	overflow: hidden;
+	z-index: 9000;
+}
+
+.main-user-consent-request-popup-cont {
+    height: 60vh; /* loader magic */
+	min-height: 400px; /* loader magic */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: 0 auto;
+	padding: 20px;
+    width: 98%;
+	min-width: 300px;
+    max-width: 980px;
+	background: #fff;
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+
+.main-user-consent-request-popup-header {
+	margin: 0 0 30px 0;
+	font-size: 18px;
+	color: #000;
+	text-align: left;
+}
+
+.main-user-consent-request-popup-textarea-block {
+	margin: 0 0 20px 0;
+}
+
+.main-user-consent-request-popup-buttons {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.main-user-consent-request-popup-buttons .btn {
+    margin: 0 5px;
+	cursor: pointer;
+}
+
+
+.main-user-consent-request-popup-text {
+	padding: 5px 10px;
+	width: 100%;
+	min-height: 240px;
+    height: calc( 60vh - 150px);
+	border: 1px solid #999;
+	background: #fff;
+	box-sizing: border-box;
+	outline: none;
+	-moz-appearance: none;
+}
+
+
+/** LOADER **/
+.main-user-consent-request-loader {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	-webkit-transform: translate(0, 50%);
+	transform: translate(0, 50%);
+}
+
+.main-user-consent-request-path {
+	stroke: #80868e;
+	stroke-dasharray: 100, 200;
+}
+
+.main-user-consent-request-loader:before {
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+.main-user-consent-request-circular {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: inherit;
+	width: inherit;
+	-webkit-animation: rotate 1s linear infinite;
+	animation: rotate 1s linear infinite;
+	-webkit-transform-origin: center center;
+	transform-origin: center center;
+}
+
+.main-user-consent-request-path {
+	stroke: #ccc;
+	stroke-dasharray: 60, 200;
+	stroke-dashoffset: 0;
+	-webkit-animation: dash 1.5s ease-in-out infinite;
+	animation: dash 1.5s ease-in-out infinite;
+	stroke-linecap: round;
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+
+.special.tm-brown .main-user-consent-request-popup-cont,
+.special.tm-brown .main-user-consent-request-popup *{
+    color: #f7f3d6;
+    background-color: #59422e;
+}
+.special.tm-black .main-user-consent-request-popup-cont,
+.special.tm-black .main-user-consent-request-popup-cont *{
+    background-color: #000;
+    color: #fff;
+}
+.special.tm-blue .main-user-consent-request-popup-cont,
+.special.tm-blue .main-user-consent-request-popup-cont *{
+    background-color: #9dd1ff;
+    color: #05274a;
+}
+

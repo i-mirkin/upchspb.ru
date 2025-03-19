@@ -1,0 +1,14 @@
+<?
+$PERM["en"]["2"]="R";
+$PERM["en"]["3"]="R";
+$PERM["en"]["4"]="R";
+$PERM["en"]["6"]="R";
+$PERM["en"]["5"]="R";
+$PERM["en"]["8"]="R";
+$PERM["lk"]["2"]="R";
+$PERM["lk"]["*"]="D";
+$PERM["test"]["*"]="D";
+$PERM["o-nas"]["G1"]="X";
+$PERM["o-nas"]["*"]="X";
+$PERM["/"]["*"]="R";
+?>

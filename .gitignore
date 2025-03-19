@@ -1,0 +1,56 @@
+# gitignore
+# 📌 Игнорируем кеш и временные файлы Битрикса
+bitrix/cache/
+bitrix/managed_cache/
+bitrix/stack_cache/
+bitrix/tmp/
+upload/tmp/
+
+# 📌 Игнорируем файлы сессий
+bitrix/modules/sessions/
+
+# 📌 Игнорируем логи и отладочные файлы
+bitrix/backup/
+bitrix/.settings_extra.php
+bitrix/.config.php
+*.log
+*.gz
+*.tar
+*.zip
+
+
+# 📌 Конфигурационные файлы, которые не должны попадать в репозиторий
+/bitrix/.settings.php
+/bitrix/.access.php
+/bitrix/php_interface/dbconn.php
+/local/php_interface/dbconn.php
+local/log/
+
+
+# 📌 Исключаем настройки веб-окружения
+/.env
+/.vscode/
+/.idea/
+/nbproject/
+/node_modules/
+/vendor/
+/composer.lock
+/package-lock.json
+
+# 📌 Игнорируем дампы базы данных
+*.sql
+*.sql.gz
+*.sql.zip
+
+# 📌 Исключаем загруженные файлы (по необходимости)
+/upload/
+
+
+# 📌 Исключаем временные файлы и файлы резервных копий
+*.bak
+*.swp
+*.swo
+*.orig
+Thumbs.db
+.DS_Store
+

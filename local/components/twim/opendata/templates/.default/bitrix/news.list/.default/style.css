@@ -1,0 +1,35 @@
+.opendata {
+    margin-bottom: 20px;
+}
+.opendata *{
+    text-indent: 0;
+}
+.opendata .panel{
+    padding: 5px 10px;
+    font-size: 85%;
+}
+.opendata .panel p{
+    text-indent: 0;
+    margin-bottom: 5px;
+}
+
+.opendata-list{
+    margin-bottom: 15px;
+}
+.opendata-list .item table tr.headertable td{
+    padding: 10px!important;
+    border-bottom: 0!important;
+}
+.opendata-list .item table td.title{
+    width: 80%;
+    text-align: left!important;
+    display: table-cell;
+}
+.opendata-list .item table td.link{
+    text-transform: uppercase;
+    width: 20%;
+}
+
+.opendata-list .item table{ 
+    width: 100%;
+}

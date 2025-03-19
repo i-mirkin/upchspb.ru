@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Спорт";
+$arDirProperties = Array(
+
+);
+?>

@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Экология";
+$arDirProperties = Array(
+
+);
+?>

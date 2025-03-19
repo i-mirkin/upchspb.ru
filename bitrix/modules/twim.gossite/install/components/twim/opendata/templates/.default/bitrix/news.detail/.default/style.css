@@ -1,0 +1,22 @@
+.opendata {
+    margin-bottom: 20px;
+}
+.opendata *{
+    text-indent: 0;
+}
+.opendata h3{
+    text-align: center;
+}
+.opendata-list table th,
+.opendata-list table td{
+    padding: 10px!important;
+    border-bottom: 0!important;
+}
+.opendata-list table td.title{
+    width: 30%;
+    text-align: left!important;
+    display: table-cell;
+}
+.opendata-list table td{
+
+}

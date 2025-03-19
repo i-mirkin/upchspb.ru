@@ -1,0 +1,35 @@
+<?
+$MESS["GOSSITE_TAB_DESC"] = "Настройки для сайта #SITE_NAME# (#LID#)";
+$MESS["GOSSITE_TAB_TITLE"] = "Параметры сайта";
+$MESS["GOSSITE_RESTORE_DEFAULTS"] = "По умолчанию";
+$MESS["GOSSITE_RESTORE_DEFAULTS_HINT"] = "Сбросить настройки текущего сайта по-умолчанию";
+$MESS["GOSSITE_KEY_API"] = "API-ключ";
+$MESS["GOSSITE_SPEEK_RES_VOIS_TITLE"] = "ResponsiveVoice.JS";
+$MESS["GOSSITE_TITLE_RES_VOIS_DESC"] = "ResponsiveVoice.JS услуга предоставляется бесплатно, для некоммерческого использования и с ограничениями по лимиту <a href='https://responsivevoice.org/' target='_blank'>responsivevoice.org</a>";
+$MESS["GOSSITE_YA_TITLE"] = "Yandex SpeechKit JavaScript Web";
+$MESS["GOSSITE_YA_VOICE_DESC"] = "Регистрация и получение ключа <a href='https://developer.tech.yandex.ru/keys/' target='_blank'>developer.tech.yandex.ru</a>, услуга предоставляется бесплатно, для некоммерческого использования и с ограничениями по лимиту.<br /> Yandex SpeechKit JavaScript Web API";
+$MESS["GOSSITE_SPEEK_SITTING_TITLE"] = "Выберите тип озвучки";
+$MESS["TWIM_GOSSITE_OSNOVNYE_PARAMETRY"] = "Основные параметры";
+$MESS["TWIM_GOSSITE_SAYTA"] = "сайта:";
+$MESS["TWIM_GOSSITE_DLA_VEB_FORM"] = "для веб-форм:";
+$MESS["TWIM_GOSSITE_TELEFON_DLA_SVAZI"] = "Телефон для связи:";
+$MESS["TWIM_GOSSITE_ADRES_ORGANIZACII"] = "Адрес организации:";
+$MESS["TWIM_GOSSITE_FIO_RUKOVODITELA"] = "ФИО руководителя:";
+$MESS["TWIM_GOSSITE_DOLJNOSTQ_RUKOVODITE"] = "Должность руководителя:";
+$MESS["TWIM_GOSSITE_FOTOGRAFIA_RUKOVODIT"] = "Фотография руководителя:";
+$MESS["TWIM_GOSSITE_UDALITQ_FOTOGRAFIU"] = "Удалить фотографию";
+$MESS["TWIM_GOSSITE_GERB"] = "Герб:";
+$MESS["TWIM_GOSSITE_UDALITQ_GERB"] = "Удалить герб";
+$MESS["TWIM_GOSSITE_KLUC_DLA"] = "ключ для JavaScript API и HTTP API Геокодера";
+$MESS["TWIM_GOSSITE_KLUC"] = "ключ:";
+$MESS["TWIM_GOSSITE_REGISTRACIA_I_POLUCE"] = "Регистрация и получение ключа ";
+$MESS["TWIM_GOSSITE_USLUGA_PREDOSTAVLAET"] = "услуга предоставляется бесплатно, для некоммерческого использования и с ограничениями по лимиту. ";
+$MESS["TWIM_GOSSITE_KART_I_GEOK"] = "Карт и HTTP API Геокодера";
+$MESS["TWIM_GOSSITE_KOORDINATY_NA_KARTE"] = "Координаты на карте(пример: 51.667400, 39.202329):";
+$MESS["TWIM_GOSSITE_VOSPOLQZUYTESQ_POISK"] = "Воспользуйтесь поиском и/или отметьте на карте двойным кликом";
+$MESS["TWIM_GOSSITE_ESLI_KARTA_NE_OTOBRA"] = "Если карта не отображается на странице и/или в публичной части, то следует проверить корректность API-ключей для всех сайтов";
+$MESS["TWIM_GOSSITE_VERSII_DLA_SLABOVIDA"] = "Версии для слабовидящих";
+$MESS["TWIM_GOSSITE_NE_USTANOVLENY_PARAM"] = "Не установлены параметры для отображения карты";
+$MESS["TWIM_GOSSITE_OSIBKA_CTENIA_DANNYH"] = "Ошибка чтения данных json:";
+$MESS["TWIM_GOSSITE_NE_UKAZAN_KLUC_K"] = "Не указан ключ API-ключ для JavaScript API и HTTP API Геокодера для сайта:";
+?>

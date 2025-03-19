@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Уполномоченный", 
+		"/upolnomochennyy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Открытые данные", 
+		"/opendata/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Противодействие коррупции", 
+		"/anti-corruption/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Муниципальные услуги", 
+		"/municipal-services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Фотогалерея", 
+		"/media/photo-gallery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Почетные граждане", 
+		"/information/honorary-citizens/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

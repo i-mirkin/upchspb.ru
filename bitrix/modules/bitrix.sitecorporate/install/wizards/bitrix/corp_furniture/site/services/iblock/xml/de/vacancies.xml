@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2010-07-19T11:53:31">
+	<Metadata>
+		<Id>furniture_vacancies</Id>
+		<Title>Stellenangebot</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_ACTIVE</Id>
+				<Title>BitrixActive</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+		</Properties>
+		<Sections>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>furniture_vacancies</Id>
+		<MetadataId>furniture_vacancies</MetadataId>
+		<Title>Stellenangebot</Title>
+		<BitrixCode>furniture_vacancies</BitrixCode>
+		<BitrixSort>500</BitrixSort>
+		<BitrixListURL>#SITE_DIR#/company/vacancies.php</BitrixListURL>
+		<BitrixDetailURL>#SITE_DIR#/company/vacancies.php##ID#</BitrixDetailURL>
+		<BitrixSectionURL></BitrixSectionURL>
+		<BitrixPicture></BitrixPicture>
+		<BitrixIndexElements>true</BitrixIndexElements>
+		<BitrixIndexSections>false</BitrixIndexSections>
+		<BitrixWorkflow>false</BitrixWorkflow>
+		<BitrixLabels>
+			<BitrixLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Stelle</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Stellen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Stelle hinzufügen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Stelle ändern</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Stelle löschen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Bereich</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Bereiche</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Bereich hinzufügen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Bereich ändern</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Bereich löschen</Value>
+			</BitrixLabel>
+		</BitrixLabels>
+		<Elements>
+			<Element>
+				<Id>2</Id>
+				<Title>Firmenvertreter/in  für die Verkaufsstelle Paris, Frankreich</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;b&gt;Aufgaben&lt;/b&gt; 						 						 
+&lt;p&gt;Leitung der Verkaufsstelle in Frankreich. Vorbereitung, Durchführung und Evaluierung von Treffen und Verhandlungen mit Kunden und Partnern.&lt;/p&gt;
+ 						 						&lt;b&gt;Voraussetzungen&lt;/b&gt; 						 
+&lt;p&gt;Universitätsabschluss im Bereich Jura oder BWL, gute Sprachkenntnisse in Französisch und Englisch.&lt;/p&gt;</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>200</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2010-05-01 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>4</Id>
+				<Title>Holztechniker/-in</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;b&gt;Aufgaben&lt;/b&gt; 						 						 
+&lt;p&gt;Optimierung von Arbeitsabläufen, Arbeitsplatzgestaltung, Projektgestaltung. Neben der fachlichen Qualifikation erwarten wir Kostenbewusstsein, Durchsetzungsvermögen und Einsatzbereitschaft. Wir bieten eine attraktive Entlohnung bei einem modernen Arbeitgeber.&lt;/p&gt;
+ 						 						&lt;b&gt;Voraussetzungen&lt;/b&gt; 						 
+&lt;p&gt;Abgeschlossene Technikerausbildung im Bereich Holztechnik. Berufserfahrung ist wünschenswert, aber nicht unbedingt notwendig.&lt;/p&gt;</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>400</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value>2010-05-01 00:00:00</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

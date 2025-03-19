@@ -1,0 +1,1 @@
+Техподдержка: <a href="https://bquadro.ru" target="_blank" rel="nofollow">Bquadro.ru</a>

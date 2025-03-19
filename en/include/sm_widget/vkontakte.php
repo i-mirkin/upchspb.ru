@@ -1,0 +1,1 @@
+<p>vkontakte widget</p>

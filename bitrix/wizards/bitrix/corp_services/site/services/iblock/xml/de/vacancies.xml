@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2010-09-27T15:12:55">
+	<Metadata>
+		<Id>8</Id>
+		<Title>Stellenangebot der Bank</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_ACTIVE</Id>
+				<Title>BitrixActive</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+		</Properties>
+		<Sections>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>corp_vacancies</Id>
+		<MetadataId>8</MetadataId>
+		<Title>Stellenangebot der Bank</Title>
+		<BitrixCode>corp_vacancies</BitrixCode>
+		<BitrixSort>500</BitrixSort>
+		<BitrixListURL>#SITE_DIR#/about/vacancies.php</BitrixListURL>
+		<BitrixDetailURL>#SITE_DIR#/about/vacancies.php##ID#</BitrixDetailURL>
+		<BitrixSectionURL></BitrixSectionURL>
+		<BitrixPicture></BitrixPicture>
+		<BitrixIndexElements>true</BitrixIndexElements>
+		<BitrixIndexSections>false</BitrixIndexSections>
+		<BitrixWorkflow>false</BitrixWorkflow>
+		<BitrixLabels>
+			<BitrixLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Stelle</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Stellen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Stelle hinzufügen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Stelle ändern</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Stelle löschen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Bereich</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Bereiche</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Bereich hinzufügen</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Bereich ändern</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Bereich löschen</Value>
+			</BitrixLabel>
+		</BitrixLabels>
+		<Elements>
+			<Element>
+				<Id>122</Id>
+				<Title>Filialleiter m/w Musterbank Finanzcenter Düsseldorf </Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;b&gt;Ihre Aufgaben: &lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Verfolgung und Steuerung der Zielerreichung der Vertriebsziele im Rahmen der Vertriebsverantwortung für ein mittelgroßes Finanzcenter &lt;/li&gt;
+&lt;li&gt;Unterstützung der Vertriebsleitung bei der Umsetzung von unternehmensweiten Vertriebsmaßnahmen &lt;/li&gt;
+&lt;li&gt;Beratung und Anleitung der Mitarbeiter im Finanzcenter in schwierigen fachlichen Fragen sowie Sicherstellung der maßgerechten Kundenansprache&lt;/li&gt; 
+&lt;li&gt;Beobachtung, Steuerung und Kontrolle aller für das Erscheinungsbild der Musterbank Finanzcenter verantwortlichen Faktoren, u. a. Wartezeit, Ordnung und Sauberkeit im Finanzcenter, Freundlichkeit und Kompetenz der Mitarbeiter&lt;/li&gt;&lt;/ul&gt;
+
+
+&lt;b&gt;Ihr Profil: &lt;/b&gt;
+&lt;p&gt;Fachliche Anforderungen &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;kaufmännische Berufsausbildung, berufliche Erfahrung &lt;/li&gt;
+&lt;li&gt;Führungskompetenz &lt;/li&gt;
+&lt;li&gt;gute Kenntnisse über Produkte und betriebliche Abläufe im Filialbereich &lt;/li&gt;
+&lt;li&gt;gute Kenntnisse in der Standardsoftware MS Office&lt;/li&gt;&lt;/ul&gt;
+
+&lt;b&gt;Persönliche Anforderungen:&lt;/b&gt; 
+&lt;ul&gt;&lt;li&gt;ausgeprägte Kundenorientierung &lt;/li&gt;
+&lt;li&gt;eigenverantwortliche und zielorientierte Handlungsweise &lt;/li&gt;
+&lt;li&gt;Teamfähigkeit, Überzeugungskraft und Durchsetzungsvermögen &lt;/li&gt;
+&lt;li&gt;hohes Maß an Sozialkompetenz &lt;/li&gt;
+&lt;li&gt;hohe Einsatzbereitschaft und Belastbarkeit &lt;/li&gt;
+&lt;li&gt;gutes Organisations- und Koordinationsvermögen&lt;/li&gt;&lt;/ul&gt;
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>123</Id>
+				<Title>Kundenberater m/w Postbank Finanzcenter Nordhorn</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;b&gt;Ihre Aufgaben: &lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;qualifizierte, selbstständige und ergebnisorientierte Beratung im Bereich Bankdienstleistungen auf der Basis eines systematischen Beratungsprozesses &lt;/li&gt;
+&lt;li&gt;aktive Bestandsarbeit mit Kunden inklusive telefonischer Kundenansprache und potenzialorientierter Verkauf von Bankprodukten und -dienstleistungen &lt;/li&gt;
+&lt;li&gt;Aufbau und Pflege von Kundenbeziehungen &lt;/li&gt; 
+&lt;li&gt;aktive Bearbeitung von Zielkundenblättern und Durchführung von Verkaufsaktionen &lt;/li&gt;
+&lt;li&gt;Umsetzung der Vertriebsziele &lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;b&gt;Ihr Profil: &lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Ausbildung zum/zur Bankkaufmann/-frau wünschenswert &lt;/li&gt;
+&lt;li&gt;Berufserfahrung im Vertrieb oder in der Kundenberatung &lt;/li&gt;
+&lt;li&gt;umfassende Produktkenntnisse im Bereich Finanzdienstleistungen &lt;/li&gt;
+&lt;li&gt;erfolgsorientiertes Handeln, eine ausgeprägte Kundenorientierung &lt;/li&gt;
+&lt;li&gt;betriebswirtschaftliches Denken und Handeln/Kostenbewusstsein &lt;/li&gt;
+&lt;li&gt;PC-Kenntnisse, Fähigkeit zum Erlernen der arbeitsplatzspezifischen Systeme sowie eine schnelle Auffassungsgabe &lt;/li&gt;
+&lt;li&gt;freundliches, selbstbewusstes und sympathisches Auftreten &lt;/li&gt;
+&lt;li&gt;Teamfähigkeit, Engagement und hohe Leistungsbereitschaft
+&lt;/li&gt;&lt;/ul&gt;
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>124</Id>
+				<Title>Spezialist m/w Risikocontrolling IT-Systeme</Title>
+				<BitrixTags></BitrixTags>
+				<Description>&lt;b&gt;Ihre Aufgaben: &lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;Betreuung und Weiterentwicklung von Datenbanken und IT-Anwendungen innerhalb der Abteilung Risikoanalytik (insbesondere mit Bezug auf Rating- und Risikosysteme) &lt;/li&gt;
+&lt;li&gt;Verantwortlich für Konzeption, Durchführung und Dokumentation von Tests intern entwickelter IT-Anwendungen &lt;/li&gt;
+&lt;li&gt;Durchführung von Funktions- und Integrationstests zur fachlichen Abnahme von extern implementierten Anwendungen &lt;/li&gt; 
+&lt;/ul&gt;
+
+
+&lt;b&gt;Ihr Profil: &lt;/b&gt;
+
+&lt;ul&gt;&lt;li&gt;abgeschlossenes Hochschulstudium der Informatik, Wirtschaftsinformatik oder vergleichbarer Abschluss &lt;/li&gt;
+&lt;li&gt;Programmiererfahrung (VBA, SAS, SQL, C++, C#, Python, Matlab..) &lt;/li&gt;
+&lt;li&gt;Erfahrung mit Datenbanksystemen &lt;/li&gt;
+&lt;li&gt;gute Englischkenntnisse &lt;/li&gt;
+&lt;li&gt;hohe analytische Fähigkeiten und selbstständige Arbeitsweise &lt;/li&gt;
+&lt;li&gt;Interesse an Detailarbeit und Flexibilität
+&lt;/li&gt;&lt;/ul&gt;
+
+</Description>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value></Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

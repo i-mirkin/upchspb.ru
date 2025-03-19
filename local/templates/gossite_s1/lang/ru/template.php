@@ -1,0 +1,1 @@
+<? $MESS['BREAKING_MSG'] = 'Срочно';

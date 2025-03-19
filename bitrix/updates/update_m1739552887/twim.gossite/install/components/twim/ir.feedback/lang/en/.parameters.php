@@ -1,0 +1,30 @@
+<?
+$MESS['IR_CAPTCHA'] = "Use the protection from the automatic messages (CAPTCHA) to unauthorized users";
+$MESS['IR_OK_MESSAGE'] = "Message to display to user after sending";
+$MESS['IR_OK_TEXT'] = "Thank you, your message is accepted.";
+$MESS['IR_EMAIL_TO'] = "E-mail to be sent";
+$MESS['IR_REQUIRED_FIELDS'] = "required fields";
+$MESS['IR_ALL_REQ'] = "(all optional)";
+$MESS['IR_NAME'] = "Name";
+$MESS['IR_SURNAME'] = "Surname";
+$MESS['IR_SECOND_NAME'] = "Second name";
+$MESS['IR_MESSAGE'] = "Message";
+$MESS['IR_PHONE'] = "Phone";
+$MESS['IR_EMAIL'] = "E-mail";
+$MESS['IR_THEME'] = "Subject treatment";
+$MESS['IR_COMPANY'] = "Name of the organization (legal entity)";
+$MESS['IR_EMAIL_TEMPLATES'] = "E-mail templates for sending emails";
+$MESS['IR_PROCESS_PERSONAL_DATA'] = "Print consent to data processing";
+$MESS['IR_INCLUDE_FILE'] = "Print file addition field";
+$MESS['IR_FILE_EXT'] = "File types to download";
+$MESS['IR_FILE_SIZE'] = "Maximum file size in bytes";
+$MESS['IR_FILE'] = "File upload settings";
+$MESS['IR_IBLOCK'] = "Options added to the information block of the message";
+$MESS['IR_IBLOCK_TYPE'] = "Info block Type";
+$MESS['IR_IBLOCK'] = "Options added to the information block";
+$MESS['IR_IBLOCK_AGANCY_DESC'] = "Information block with the list of makers appeal";
+$MESS['IR_COLLECTIVE_APPEAL_DESC'] = "Enable the possibility of adding co-authors";
+$MESS['IR_IBLOCK_COAUTHORS'] = "Info Block for co-authors";
+$MESS['IR_IBLOCK_ADD'] = "InfoBlock for writing cases";
+$MESS['IR_USER_REGISTER_DESC'] = "Enable user registration";
+?>

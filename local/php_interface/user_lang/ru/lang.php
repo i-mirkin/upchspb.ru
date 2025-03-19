@@ -1,0 +1,4 @@
+<?
+$MESS['/bitrix/components/bitrix/subscribe.edit/lang/ru/component.php']['adm_sent_mess'] = 'На адрес подписки выслана ссылка подтверждения.';
+$MESS['/bitrix/components/bitrix/subscribe.edit/lang/ru/component.php']['adm_conf_mess'] = 'Спасибо, что подписались на новостную рассылку Уполномоченного по правам человека в Санкт-Петербурге. Ваша подписка подтверждена и активирована. <br><br>Если Вы хотите отказаться от получения новостей, нажмите кнопку Отписаться';  
+$MESS['/bitrix/components/bitrix/subscribe.edit/lang/ru/component.php']['adm_unsubscr_mess'] = 'Ваша подписка на новостную рассылку Уполномоченного по правам человека в Санкт-Петербурге аннулирована.'; 

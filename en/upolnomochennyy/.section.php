@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Уполномоченный";
+$arDirProperties = Array(
+
+);
+?>
