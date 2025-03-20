@@ -1,0 +1,232 @@
+.status-MY td,
+.status-MY td a,
+#personal-header-badge-MY{
+	background-color: #e57373!important;
+	color: #e1e1e1!important;
+}
+
+.status-HEAD td,
+.status-HEAD td a,
+#personal-header-badge-HEAD{
+	background-color: #3F6CFF !important;
+	color: #e1e1e1!important;
+}
+
+.status-EXECUTOR td,
+.status-EXECUTOR td a,
+#personal-header-badge-EXECUTOR{
+	background-color: #7F9DFF !important;
+	color: #e1e1e1!important;
+}
+
+
+
+.status-NEW td,
+#personal-header-badges .NEW{
+	background-color: #e57373!important;
+}
+.status-AT_WORK td,
+#personal-header-badges .AT_WORK{
+	background-color: #ba68c8!important;
+}
+.status-NEED_WORK td,
+#personal-header-badges .NEED_WORK{
+	background-color: #9575cd!important;
+}
+.status-NEW td, .status-AT_WORK td, .status-NEED_WORK td{
+	color: #e1e1e1!important;
+}
+.status-NEW td a, .status-AT_WORK td a, .status-NEED_WORK td a {
+	color: #e1e1e1!important;
+	text-decoration: underline;
+}
+.status-DONE td {
+}
+
+.status-DONE_HEAD td,
+#personal-header-badges .DONE_HEAD {
+	background-color: #81d4fa!important;
+}
+.status-DONE_EXECUTOR td,
+#personal-header-badges .DONE_EXECUTOR {
+	background-color: #80deea!important;
+}
+.status-NEED_WORK_HEAD td,
+#personal-header-badges .NEED_WORK_HEAD {
+	background-color: #dcedc8!important;
+}
+
+.content-block-toggle {
+	border-bottom: 1px dashed;
+	text-decoration: none!important;
+	white-space: nowrap;
+}
+
+.content-block-toggle:hover {
+	border-bottom: 1px solid; 
+	text-decoration: none!important;
+}
+
+.content-block input{
+	white-space: nowrap;
+}
+
+
+
+/*v2*/
+.iblock_add-question textarea, .iblock_add-question input {
+    width: 100%;
+}
+.personal-header-link {
+    position: fixed;
+    top: 0;
+    right: 30px;
+    background: #ffc02e;
+    padding: 10px;
+    border-radius: 10px;
+		z-index: 89999;
+}
+.personal-header-link:hover {
+	text-decoration: none;
+	color: #b80000;
+}
+.personal-header-badge{
+	position: absolute;
+    right: -10px;
+    background: #b80000;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.personal-edit-item textarea{
+	width: 100%;
+    height: 250px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+tr.status-64 td{
+	background: #ff030336!important;
+}
+
+.bx-authform-social {
+	display: none;
+}
+
+.personal-table thead tr td {
+	border-bottom: 2px solid #888;
+}
+.personal-table td{
+	vertical-align: middle;
+}
+.personal-table-name {
+	display: flex;
+	align-content: center;
+	align-items: center;
+}
+
+
+#personal-header-badges{
+	position: absolute;
+	left: 10px;
+	color: white;
+	font-size: 12px;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+#personal-header-badges span {
+	background: #b80000;
+	color: white;
+	font-size: 12px;
+	font-weight: 700;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.personal-edit-item,
+.personal-edit-item table td{
+	color: #222;
+}
+.personal-edit-item select{
+	    padding: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 6px;
+}
+
+
+.personal-comments  {
+	margin-bottom: 15px;
+}
+.personal-comments-container {
+	font-size: 12px;
+	line-height: 1.2;
+	max-height: 250px;
+	overflow: auto;
+}
+.personal-comment-container {
+	margin-bottom: 15px;
+	margin-bottom: 15px;
+  	color: #333;
+}
+.personal-comment-container i {
+	font-style: normal;
+	color: #999;
+}
+.personal-edit-item h2 {
+	font-size: 18px;
+	margin-bottom: 18px;
+	color: #555;
+	font-weight: 700;
+}
+.personal-comments-add textarea{
+	margin-top: 25px;
+	max-height: 100px!important;
+	font-size: 14px;
+}
+
+.personal-comments-container::-webkit-scrollbar {
+    width: 7px;
+    background-color: #223c50;
+		border-radius: 5px;
+}
+.personal-comments-container::-webkit-scrollbar-thumb {
+		 background-color: #0065DD;
+		 border-radius: 5px;
+}
+a.underline {
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+a.underline:hover {
+	text-decoration: none;
+}
+
+#select_status_director_note {
+	margin-top: 10px;
+	font-size: 12px;
+	color: red;
+}
+
+.send-answer-btn {
+	color: #b80000!important;
+	border-bottom: 1px solid;
+	text-decoration: none!important;
+}
+		

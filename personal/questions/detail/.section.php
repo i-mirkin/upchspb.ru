@@ -1,0 +1,5 @@
+<?
+$sSectionName = "Редактирование";
+$arDirProperties = array(
+);
+?>
