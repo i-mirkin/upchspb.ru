@@ -46,12 +46,8 @@ function columnPage()
     </div>
 <? endif; // is not main ?>
 
+<? $APPLICATION->IncludeFile(SITE_DIR . "include/right_column.php", array(), array("MODE" => "text")); ?>
 
-<? $APPLICATION->IncludeFile(
-    SITE_DIR . "include/right_column.php",
-    array(),
-    array("MODE" => "text")
-); ?>
 </div>
 </div>
 </div>
@@ -204,11 +200,10 @@ $APPLICATION->IncludeFile(
                 dataType: 'json',
                 data: {},
                 success: function (data) {
-                    //console.log(data);
-                    //$('#personal-header-badges').html('');
-                    let reload = false;
-                    console.log(data);
+                    if (!data) return;
 
+                    let reload = false;
+                    // console.log(data);
                     if (data.MY > 0) {
                         if ($('#personal-header-badge-MY').length > 0) { // бейдж уже есть
                             if (parseInt($('#personal-header-badge-MY').text()) != data.MY) {
@@ -241,6 +236,7 @@ $APPLICATION->IncludeFile(
                             $('#personal-header-badges').append('<a href="/personal/questions/?filter_holder=executor" id="personal-header-badge-EXECUTOR" class="EXECUTOR" title="У моих исполнителей">' + data.EXECUTOR + '</a>');
                         }
                     }
+
                     if (reload && window.location.pathname == '/personal/questions/') { // если в списке и надо обновить
                         window.location.reload();
                     }
@@ -249,7 +245,7 @@ $APPLICATION->IncludeFile(
         }
 
         updateBadge();
-        var updateInterval = setInterval(updateBadge, 5000);
+        const updateInterval = setInterval(updateBadge, 5000);
         // to clear interval: clearInterval(updateInterval);
 
 

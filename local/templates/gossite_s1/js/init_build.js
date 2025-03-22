@@ -207,6 +207,8 @@ App = function()
         $(document).on("submit", "form[name='question_form']", function () {
             var $name = $("input[name='user_name']", $(this)),
                 $mail = $("input[name='user_email']", $(this)),
+                $phone = $("input[name='user_phone']", $(this)),
+                $q_categ = $("select[name='q_categ']", $(this)),
                 $message = $("textarea[name='MESSAGE']", $(this)),
                 $btn = $("button[type='submit']", $(this));
             var $form = $(this);
@@ -218,13 +220,15 @@ App = function()
             if($name.val().length === 0){
                 setError($name, "Укажите, как к Вам обращаться");
                 flag_error = "Y";
-            } else if ($name.val().length < 3) {
+            }
+            else if ($name.val().length < 3) {
                 setError($name, "Должно быть не менее 3-х символов");
                 flag_error = "Y";
-            } else {
+            }
+            else {
                 removeError($name);  
             }
-            console.log($message.val());
+
             if($message.val().length === 0){
                 setError($message, "Не заполнены обязательные поля");
                 flag_error = "Y";
@@ -247,6 +251,21 @@ App = function()
             } else {
                removeError($mail);
             }
+
+            if ($phone.val().length === 0) {
+                setError($phone, "Введите номер телефона");
+                flag_error = "Y";
+            } else {
+                removeError($mail);
+            }
+
+            if ($q_categ.val() === "" || $q_categ.val() === null) {
+                setError($q_categ, "Выберите категорию");
+                flag_error = "Y";
+            } else {
+                removeError($q_categ);
+            }
+
             if (flag_error === "N" && flag_ajax !== 1) {
                 flag_ajax = 1;
                 $btn.prop("disabled", true);
@@ -289,12 +308,12 @@ App = function()
             $el.next().next(".help-block").remove();
         }
         function setError($el, text){
-            $el.parent(".form-group").addClass("has-error");
+            $el.closest(".form-group").addClass("has-error");
             $el.next().next(".help-block").remove();
             $el.parent(".form-group").append( "<span class='help-block'>"+text+"</span>" );
         }
         function removeError($el){
-            $el.parent(".form-group").removeClass("has-error");
+            $el.closest(".form-group").removeClass("has-error");
             $el.next().next(".help-block").remove();
         } 
     }
@@ -621,8 +640,8 @@ App = function()
 			console.log('date updated');
             $(this).data("DateTimePicker").enabledDates(arDate);
         }).on("dp.load", function(){
-			console.log('date loaded');
-			console.log('arDate = '+ arDate);
+			// console.log('date loaded');
+			// console.log('arDate = '+ arDate);
              $(this).data("DateTimePicker").enabledDates(arDate);
              $('.list-events-main .item[data-date="'+arDateNew[0]+'"]').fadeIn("slow");
         }).trigger("dp.load");  

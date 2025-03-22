@@ -6392,4 +6392,10 @@ a.underline:hover {
 }
 
 
+.has-error .jq-selectbox {
+    border: 1px solid #a94442;
+    border-radius: 6px;
+}
+
+
 

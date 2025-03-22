@@ -1,20 +1,50 @@
 <?
-require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
+require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/header.php');
+
+//require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
+$APPLICATION->SetTitle("");
+//if (!CModule::IncludeModule("main")) {
+//    die("Модуль main не подключен!");
+//}
+//$dbRes = CEventMessage::GetList($by = "id", $order = "desc", ["EVENT_NAME" => "NEW_DEVICE_LOGIN"]);
+//if (!$dbRes->Fetch()) {
+//    die("Почтовый шаблон не найден!");
+//}
 
 
-use Bitrix\Main\Loader;
-Loader::includeModule("subscribe");
+//$result = CEvent::Send("NEW_DEVICE_LOGIN", "s1", [
+//    "EMAIL" => "i.mirkin@yandex.ru",
+//    "EMAIL_TO" => "i.mirkin@yandex.ru",
+//    "TEXT" => "Тестовое письмо"
+//]);
+//
+//if ($result) {
+//    echo "Письмо отправлено!";
+//} else {
+//    echo "Ошибка при отправке письма!";
+//}
+?>
 
-$subscriberIds = [2424,2405,2397,2308,2177,891,640,627,528,524,523,485,483,479,476,472,469,467,463,460,459,457,453,444,437,432,429,424,415,414,411,404,402,396,394,393,388,387,385,381,380,379,363,358,354,351,350,347,345,344,343,331,326,320,316,313,309,288,286,282,280,279,278,273,268,266,264,253,252,245,240,239,233,226,222,221,213,207,205,204,203,201,196,194,191,190,187,172,171,160,143,131]; // ID подписчиков, которых нужно деактивировать
+<?
 
-foreach ($subscriberIds as $id) {
-    if (CSubscription::Delete($id)) {
-        echo "Подписчик с ID $id удален.<br>";
-    } else {
-        echo "Ошибка при удалении подписчика с ID $id.<br>";
-    }
-}
+//$APPLICATION->IncludeComponent(
+//	"bitrix:subscribe.edit",
+//	"clear",
+//	Array(
+//		"AJAX_MODE" => "N",
+//		"AJAX_OPTION_ADDITIONAL" => "",
+//		"AJAX_OPTION_HISTORY" => "N",
+//		"AJAX_OPTION_JUMP" => "N",
+//		"AJAX_OPTION_STYLE" => "Y",
+//		"ALLOW_ANONYMOUS" => "Y",
+//		"CACHE_TIME" => "3600",
+//		"CACHE_TYPE" => "A",
+//		"SET_TITLE" => "Y",
+//		"SHOW_AUTH_LINKS" => "Y",
+//		"SHOW_HIDDEN" => "N"
+//	)
+//);
 
+?>
 
-
-
+<? require($_SERVER['DOCUMENT_ROOT'] . '/bitrix/footer.php'); ?>

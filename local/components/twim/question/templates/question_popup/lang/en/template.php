@@ -1,5 +1,6 @@
 <?
 $MESS ['MFT_NAME'] = "Name";
+$MESS ['MFT_PHONE'] = "Phone";
 $MESS ['MFT_EMAIL'] = "Your E-mail";
 $MESS ['MFT_MESSAGE'] = "Message";
 $MESS ['MFT_CAPTCHA'] = "CAPTCHA";

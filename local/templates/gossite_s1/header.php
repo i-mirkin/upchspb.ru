@@ -62,6 +62,7 @@ $Asset->addString('<meta name="viewport" content="width=device-width, initial-sc
 $Asset->addString('<meta name="cmsmagazine" content="cf4f03a6602f60790197ac6e5f1e2da0" />');
 $Asset->addJs(SITE_TEMPLATE_PATH . "/build/script.min.js");
 $Asset->addJs(SITE_TEMPLATE_PATH . "/build/init.min.js");
+//$Asset->addJs(SITE_TEMPLATE_PATH . "/js/init_build.js");
 $Asset->addJs(SITE_TEMPLATE_PATH . "/js/slick.min.js");
 $Asset->addJs(SITE_TEMPLATE_PATH . "/js/detect.js");
 $Asset->addJs(SITE_TEMPLATE_PATH . "/js/script.js");

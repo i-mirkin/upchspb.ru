@@ -10,7 +10,7 @@ function dump($r)
     }
 }
 // перед отправкой письма подписчику добавляет в письма рассылки ссылку для отписки
-AddEventHandler("subscribe", "BeforePostingSendMail", "BeforePostingSendMailHandler");
+//AddEventHandler("subscribe", "BeforePostingSendMail", "BeforePostingSendMailHandler");
 function BeforePostingSendMailHandler($arFields)
 {
     $rs = CSubscription::GetByEmail($arFields["EMAIL"]);
@@ -31,6 +31,12 @@ function OnStartSubscriptionUpdateHandler($arFields)
             LocalRedirect('/subscribe/?subs=deleted');
         }
     }
+}
+
+AddEventHandler('main', 'OnBeforeEventSend', 'setRecipientDev');
+function setRecipientDev(&$arFields, &$arTemplate) {
+    $arTemplate['EMAIL_TO'] = 'i.mirkin@yandex.ru';
+    $arTemplate['BCC'] = 'i.mirkin@yandex.ru';
 }
 
 function num_decline($number, $titles, $show_number = 1)
